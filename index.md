@@ -7,4 +7,4 @@ This [map](Hudson_Schools_SchoolDistricts.html) shows individual schools and sch
 The cholopleth map shows the student-teacher ratio of each school district.
 
 
-<iframe src = 'Hudson_Schools_SchoolDistricts.html' width = 500 height = 500> </iframe>
+<iframe src = 'Hudson_Schools_SchoolDistricts.html' width = 500 height = 1000> </iframe>
