@@ -12,15 +12,16 @@ This [map](school_districts_sending_receiving.html) shows municipalities sending
   
 - Data Processing
   - I used geoprocessing tools (buffer, clip, intersection, and dissolve) to find which school districts contain which municipalities.
-  - To identify the [sending-receiving relationship](https://en.wikipedia.org/wiki/Sending/receiving_relationship#:~:text=A%20sending%2Freceiving%20relationship%20is,part%20of%20a%20historical%20relationship.) between localities and school districts, I identified which grades each municipal school districts does not have, which intersecting school districts can supplement the lack of grades, and estimated the relationship between the municipalities and school districts.
-  - Using the estimated sending/receiving relationship, I calculated the number of sending students and the fraction to the total students for each NJ municipality.
+  - To identify the [sending-receiving relationship](https://en.wikipedia.org/wiki/Sending/receiving_relationship#:~:text=A%20sending%2Freceiving%20relationship%20is,part%20of%20a%20historical%20relationship.) between localities and school districts, I identified which grades each municipal school district does not have, which intersecting school districts can supplement the lack of grades, and estimated the relationship between the municipalities and school districts.
+  - Using the estimated sending/receiving relationship, I calculated the number of sending students and the fraction of the sending students to the total students for each NJ municipality.
   - In the interactive map, I included my own estimation of the relationships as links between the centroids of municipalities and school districts.
 
 ### Static Map
+- Municipalities with CVs greater than 40 are symbolized with hatches.
 <img src = "static.png" width ="1025" height ="700">
 
 ### Interactive Map
-This interactive map shows some statistics of municipalities and the links between municipalities and school districts.
-- Tooltips are implemented for the choropleth layers.
-- Popups are implemented for the sending-receiving link layer.
+This interactive map shows some statistics about municipalities and the links between municipalities and school districts.
+- Tooltips are implemented for the choropleth layers. You can see details of the choropleth layers by hovering over them.
+- Popups are implemented for the sending-receiving link layer. You can see more information on each link by clicking on it.
 <iframe src = 'school_districts_sending_receiving.html' width = 800 height = 800> </iframe>
