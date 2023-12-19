@@ -18,7 +18,7 @@ This [map](school_districts_sending_receiving.html) shows municipalities sending
 
 ### Static Map
 - Municipalities with CVs greater than 40 are symbolized with hatches.
-<img src = "static.png" width ="1538" height ="1050">
+<img src = "static.png" width ="1538" height ="700">
 
 ### Interactive Map
 This interactive map shows some statistics about municipalities and the links between municipalities and school districts.
