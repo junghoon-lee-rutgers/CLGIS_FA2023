@@ -1,8 +1,8 @@
-# Assignment 8
+# Final Project
 Command-line GIS, Fall 2023
 Junghoon Lee
 
-## Schools and School Districts in Hudson County, NJ 
+## The Sending/Receiving relationships between municipalities and school districts in New Jersey
 This [map](school_districts_sending_receiving.html) shows municipalities sending their students to school districts other than their own K-12 districts.
 
 - Data sources
