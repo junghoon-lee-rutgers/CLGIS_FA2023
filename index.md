@@ -18,10 +18,11 @@ This [map](school_districts_sending_receiving.html) shows municipalities sending
 
 ### Static Map
 - Municipalities with CVs greater than 40 are symbolized with hatches.
-<img src = "static.png" width ="1538" height ="700">
+<img src = "static.png" width ="1538" height ="680">
 
 ### Interactive Map
 This interactive map shows some statistics about municipalities and the links between municipalities and school districts.
 - Tooltips are implemented for the choropleth layers. You can see details of the choropleth layers by hovering over them.
 - Popups are implemented for the sending-receiving link layer. You can see more information on each link by clicking on it.
+- The line widths of the links represent the number of students sent from municipalities to school districts.
 <iframe src = 'school_districts_sending_receiving.html' width = 820 height = 820> </iframe>
