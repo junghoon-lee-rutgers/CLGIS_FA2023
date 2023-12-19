@@ -20,4 +20,7 @@ This [map](school_districts_sending_receiving.html) shows municipalities sending
 <img src = "static.png" width ="1025" height ="700">
 
 ### Interactive Map
+This interactive map shows some statistics of municipalities and the links between municipalities and school districts.
+- Tooltips are implemented for the choropleth layers.
+- Popups are implemented for the sending-receiving link layer.
 <iframe src = 'school_districts_sending_receiving.html' width = 800 height = 800> </iframe>
