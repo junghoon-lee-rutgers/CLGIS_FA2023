@@ -17,7 +17,7 @@ This [map](school_districts_sending_receiving.html) shows municipalities sending
   - In the interactive map, I included my own estimation of the relationships as links between the centroids of municipalities and school districts.
 
 ### Static Map
-<img src="static.png" ="1025" ="700">
+<img src = "static.png" width ="1025" height ="700">
 
 ### Interactive Map
 <iframe src = 'school_districts_sending_receiving.html' width = 800 height = 800> </iframe>
